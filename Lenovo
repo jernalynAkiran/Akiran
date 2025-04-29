@@ -1,0 +1,103 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyWebsite0945 - Redesigned</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: #24292e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #3b3f44;
+    }
+    nav a {
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #586069;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?technology') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 2px black;
+      font-size: 2.5rem;
+    }
+    .container {
+      display: flex;
+      padding: 40px 10%;
+      gap: 20px;
+    }
+    .content {
+      flex: 3;
+    }
+    .sidebar {
+      flex: 1;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #24292e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Redesigned Website</h1>
+    <p>Welcome to my improved personal space</p>
+  </header>  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </nav>  <div class="hero">
+    <div>Explore. Create. Inspire.</div>
+  </div>  <div class="container">
+    <div class="content">
+      <h2>Welcome!</h2>
+      <p>This is the redesigned version of my website. It's now more modern, easier to navigate, and works beautifully on desktop and mobile. Feel free to explore the sections to know more about me and my projects.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum posuere velit, a egestas justo tempus non. Integer dignissim sapien eget tortor congue, at fermentum libero ullamcorper.</p>
+    </div>
+    <div class="sidebar">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Latest Blog Post</a></li>
+        <li><a href="#">My Portfolio</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>  <footer>
+    <p>&copy; 2025 MyWebsite0945. All rights reserved.</p>
+  </footer>
+</body>
+</html>
